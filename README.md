@@ -1,2 +1,2 @@
-# 30-Days-challenge
-In this 30 days , I will post daily what I learn .
+# 30-Days-Tryhackme-challenge
+In this 30 days , I will post daily what I learn from the tryhackme .
