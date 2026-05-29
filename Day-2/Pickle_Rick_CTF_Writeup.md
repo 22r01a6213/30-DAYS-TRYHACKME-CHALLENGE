@@ -62,7 +62,6 @@ nmap -sV -sC -p- -sS -Pn 10.49.133.233
 Inspecting the page source of `index.html` revealed a hidden comment with a username.
 
 
-![alt text](image.png)
 
 **Finding:**
 
@@ -103,7 +102,6 @@ gobuster dir -u http://10.49.133.233/ -w directory-list-lowercase-2.3-medium.txt
 
 Navigated to `/robots.txt` to check for any disallowed paths or hidden clues.
 
-![alt text](image-2.png)
 
 **Content of robots.txt:**
 ```
@@ -132,7 +130,6 @@ Successfully logged in at `http://10.49.133.233/login.php` and was redirected to
 
 Before attempting a reverse shell, checked which Python version was available on the server.
 
-![alt text](image-3.png)
 
 **Command run in the panel:**
 ```bash
@@ -152,7 +149,7 @@ which python3
 
 Crafted a Python3 reverse shell and executed it through the Command Panel while a Netcat listener was set up on the attacker machine.
 
-![alt text](image-4.png)
+
 
 **Payload used:**
 ```python
