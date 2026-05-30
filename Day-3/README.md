@@ -292,4 +292,4 @@ Ping Scan → Nmap → UnrealIRCd on port 6667 → Metasploit Exploit
 
 ---
 
-*Writeup by: [Your Name] | Platform: TryHackMe | Room: Upload Vulnerabilities*
+*Writeup by: [showrya] | Platform: TryHackMe | Room: Upload Vulnerabilities*
